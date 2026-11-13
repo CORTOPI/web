@@ -1,8 +1,8 @@
 
 <?php
 // ЗАДАНИЕ 1
-$name = 'Роман';
-$age = 23;
+$name = 'Мария';
+$age = 20;
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ $age = 23;
     // ЗАДАНИЕ 2
 
     echo "Меня зовут: $name <br>";
-    echo "Мне $age года <br>";
+    echo "Мне $age лет <br>";
 
     echo "Тип переменной name: ";
     var_dump($name);
