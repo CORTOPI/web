@@ -1,4 +1,3 @@
-
 <?php
 // ЗАДАНИЕ 1
 $name = 'Мария';
@@ -15,21 +14,14 @@ $age = 20;
 </head>
 <body>
     <h1>Переменные и вывод</h1>
-
+    <p>
+    Меня зовут: <?= $name ?> <br>
+    Мне <?= $age ?> лет <br>
+    Тип переменной name: <?= var_dump($name) ?> <br>
+    Тип переменной age: <?=var_dump($age)?>
+    </p>
     <?php
     // ЗАДАНИЕ 2
-
-    echo "Меня зовут: $name <br>";
-    echo "Мне $age лет <br>";
-
-    echo "Тип переменной name: ";
-    var_dump($name);
-
-    echo "<br>";
-
-    echo "Тип переменной age: ";
-    var_dump($age);
-
     // Удаляем переменные
     unset($name, $age);
     ?>
