@@ -1,7 +1,7 @@
 <?php
     declare(strict_types=1);
     $now = date("Y-m-d", time());
-    $birthday = mktime(6, 0, 0, 1, 5, 2006);
+    $birthday = mktime(6, 0, 0, 9, 7, 2006);
     $hour = time();
 ?>
 <!DOCTYPE html>
